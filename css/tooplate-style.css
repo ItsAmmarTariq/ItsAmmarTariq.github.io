@@ -291,7 +291,12 @@ b, strong {
 
 .dark-mode {
   background: #0c0c0d;
+
 }
+.dark-mode p{
+  color: white;
+}
+
 .dark-mode .navbar-light .navbar-nav .nav-link {
   color: rgba(255, 255, 255, 0.8);
 }
@@ -315,8 +320,16 @@ b, strong {
 .dark-mode .owl-carousel .owl-nav button.owl-next,
 .dark-mode .owl-carousel .owl-nav button.owl-prev,
 .dark-mode .owl-carousel button.owl-dot {
-  color: #ffffff;
+  color: #ffff;
 }
+.dark-mode .owl-carousel .owl-nav button.owl-next:hover,
+.dark-mode .owl-carousel .owl-nav button.owl-prev:hover,
+.dark-mode .owl-carousel button.owl-dot:hover {
+  color: yellow !important;
+}
+
+
+
 
 .timeline-wrapper {
   position: relative;
@@ -367,7 +380,7 @@ b, strong {
 }
 .project-info
 {
- padding: 120px; 
+ padding: 60px; 
 }
 
 .owl-carousel .owl-nav span {
